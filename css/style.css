@@ -8,11 +8,11 @@
 }
 
 body {
+  background-color: #ededed;
+  color: #232323;
   font-family: 'Merriweather', serif;
   font-size: 1.1em;
   overflow-x: hidden;
-  background-color: #ededed;
-  color: #232323;
 }
 
 nav {
@@ -24,9 +24,9 @@ nav {
   position: fixed;
   top: 50px;
   left: 50px;
-  -webkit-user-select: none;
   user-select: none;
   z-index: 1;
+  -webkit-user-select: none;
 }
 
 #menuToggle a {
@@ -42,7 +42,8 @@ nav {
 .current {
   opacity: .4;
 }
-.control-button{
+
+.control-button {
   position: absolute;
   bottom: 50px;
   right: 50px;
@@ -50,23 +51,24 @@ nav {
   padding: 0;
   border: 0;
   color: #F4511E;
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: .75em;
   text-transform: uppercase;
   padding: 5px;
   transition: .3s all;
   font-weight: 800;
 }
-.control-button:hover{
+
+.control-button:hover {
   opacity: .7;
   cursor: pointer;
   transition: .3s all;
 }
 
-.scroll-button{
+.scroll-button {
   position: absolute;
   bottom: 50px;
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: .75em;
   text-transform: uppercase;
   padding: 5px;
@@ -74,6 +76,7 @@ nav {
   font-weight: 800;
   letter-spacing: 1px;
 }
+
 #menuToggle input {
   display: block;
   width: 60px;
@@ -97,7 +100,7 @@ nav {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     opacity 0.55s ease;
-    z-index:1;
+  z-index: 1;
 }
 
 #menuToggle span:first-child {
@@ -137,8 +140,8 @@ nav {
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-  border-right: 1px solid rgba(0,0,0,.1);
-  font-family: 'Montserrat' , sans-serif;
+  border-right: 1px solid rgba(0, 0, 0, .1);
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
@@ -153,7 +156,7 @@ nav {
   transform: none;
 }
 
-.bottom-credit{
+.bottom-credit {
   display: inline-block;
   position: absolute;
   bottom: 125px;
@@ -172,7 +175,7 @@ header {
   background-color: #000;
 }
 
-.mobile-header{
+.mobile-header {
   background-image: url('../img/phone-header-bckg.jpg');
   background-size: cover;
   text-align: center;
@@ -182,7 +185,7 @@ header {
   display: none;
 }
 
-.inner-header{
+.inner-header {
   height: auto;
   display: flex;
   flex-direction: column;
@@ -242,19 +245,21 @@ h2 {
   font-weight: 400;
 }
 
-h3, h4{
+h3,
+h4 {
   font-size: 1.5em;
   color: #F4511E;
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-h4{
+h4 {
   font-size: .875em;
   text-align: center;
   font-weight: 400;
 }
+
 main {
   max-width: 50%;
   margin: 0 auto;
@@ -266,18 +271,20 @@ main a {
   color: #F4511E;
   text-decoration: none;
 }
-.questionbox{
+
+.questionbox {
   padding: 5em 4em;
   background-color: #e0e0e0;
   text-align: center;
   font-size: .875em;
   border-radius: 3px;
-  border: 1px solid rgba(0,0,0,.1);
-  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
--moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
-margin-bottom: 5em;
+  border: 1px solid rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5em;
 }
+
 blockquote {
   font-size: 1em;
   padding: 3em;
@@ -291,53 +298,61 @@ cite {
   margin-bottom: 3em;
   padding-left: 3em;
   font-size: .875em;
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0.7);
 }
+
 p {
   line-height: 1.5em;
 }
+
 p+p {
   margin-top: 2em;
 }
+
 sup {
   font-size: .6em;
-  color:#F4511E;
+  color: #F4511E;
   font-weight: bold;
 }
-.padding-fix{
+
+.padding-fix {
   margin-bottom: 3em;
 }
-.inline-list{
+
+.inline-list {
   padding: 0 3em;
 }
+
 .inline-list li {
   list-style-type: none;
   line-height: 1.5em;
 }
-.centered{
+
+.centered {
   text-align: center;
   font-style: italic;
   margin-bottom: 10em;
 }
-.footer-inner{
+
+.footer-inner {
   display: flex;
   width: 50%;
   margin: 0 auto;
   padding: 3em 0;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(0, 0, 0, .1);
   justify-content: center;
   height: 1em;
 }
 
-.footer-item{
+.footer-item {
   flex: 1;
 }
 
-.footer-item a{
+.footer-item a {
   color: #232323;
   transition: .3s all;
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .5px;
@@ -349,89 +364,112 @@ sup {
 .right a {
   color: #F4511E;
 }
-.footer-item a:hover{
+
+.footer-item a:hover {
   opacity: .8;
   transition: .3s all;
 }
-.right{
+
+.right {
   text-align: right;
 }
-.footer-bottom{
+
+.footer-bottom {
   font-size: .6em;
   width: 100%;
   background-color: #F4511E;
   color: #fff;
   padding: 1em 0;
 }
-.small{
+
+.small {
   max-width: 50%;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-@media (max-width: 1024px){
-  body{
+
+@media (max-width: 1024px) {
+  body {
     font-size: 1.05em;
   }
+
   main {
     max-width: 75%;
   }
-  .footer-inner{
+
+  .footer-inner {
     width: 75%;
   }
 }
+
 @media (max-width:480px) {
-  body{
+  body {
     font-size: .875em;
   }
-  .video-header{
+
+  .video-header {
     display: none;
   }
-  .mobile-header{
+
+  .mobile-header {
     display: block;
   }
+
   #menuToggle {
     top: 2em;
     left: 1em;
   }
-  #menu{
+
+  #menu {
     width: 100vw;
   }
-  h1{
+
+  h1 {
     font-size: 1.5em;
   }
-  h2{
+
+  h2 {
     font-size: .875em;
     letter-spacing: 1px;
   }
-  h3{
+
+  h3 {
     font-size: 1.2em;
   }
+
   main {
     max-width: 100%;
-    padding: 2em 1em; 
+    padding: 2em 1em;
   }
-  .questionbox{
+
+  .questionbox {
     padding: 2em;
     margin-bottom: 2em;
   }
-  blockquote{
+
+  blockquote {
     margin: 2em 0;
     padding: 0 1em;
   }
-  cite{
+
+  cite {
     padding: 0 1em;
   }
-  .footer-inner{
+
+  .footer-inner {
     width: 92%;
   }
-  .inline-list{
+
+  .inline-list {
     padding: 0 1em;
   }
-  .padding-fix{
+
+  .padding-fix {
     margin-bottom: 2em;
   }
 }
+
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg {
     height: 300%;
