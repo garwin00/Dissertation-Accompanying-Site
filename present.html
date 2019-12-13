@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>You are The Product - The Erosion of Online Privacy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,800&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    var d = new Date();
+    var y = d.getFullYear();
+  </script>
+</head>
+<body>
+  <nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="index.html"><li>1. Introduction</li></a>
+        <a href="past.html"><li>2. The Past</li></a>
+        <a href="present.html" class="current"><li>3. Present Day Privacy</li></a>
+        <a href="whatcan.html"><li>4. What Can be Done?</li></a>
+        <a href="conclusion.html"><li>5. Conclusion</li></a>
+        <a href="bibliography.html"><li>6. Bibliography</li></a>
+        <p class="bottom-credit">Words & Code by Garry Irwin - <script>document.write(y);</script></p>
+      </ul>
+    </div>
+  </nav>
+  <header class="inner-header" style="background-image: url(img/inner-header-img-5.jpg); background-size: cover;">
+    <h1>You are the product</h1>
+    <h2>The erosion of online privacy</h2>
+  </header>
+  <main>
+    <h3 id="top">3. Present Day Privacy</h3>
+    <blockquote>“By 2010, we as a species were creating more data per day than we did from the beginning of time until 2003.”</blockquote>
+    <cite>- Bruce Schneier, Data and Goliath, 2016</cite>
+    <p>Data has become a trillion dollar a year industry, and is now more expensive than oil <sup><a href="bibliography.html#nine" target="_blank" rel="noopener">[9]</a></sup>. Unsurprisingly, something this valuable has inspired tracking and data-mining on an unprecedented scale, and with tools and methods evolving and innovating every day, it’s important the veil is pulled back on these practises. It’s claimed that the privacy violations happening every day are for the sake of security, the NSA admitting that they had, at one point, 117,675 active surveillance targets <sup><a href="bibliography.html#ten" target="_blank" rel="noopener">[10]</a></sup>, but when do we draw the line between privacy violations and “systematic observation”?</p>
+    <p>Marketing and data analysis companies collect data from every possible source and create extensive data-bases and profiles based on specific users. If a user has ever used a credit card to make an online purchase, that information is catalogued and added to a database. If a user has ever searched a specific keyword or phrase, that information is catalogued and added to a database. Companies are cataloguing every piece of information that users enter online in order to build comprehensive advertising profiles. </p>
+    <p>This practise has given birth to a new industry - “Data Brokering” - Brokerage companies buy and sell data in momentary trades without hesitation. Imagine a user visits a website without any sort of tracking blocker. This website sees that they specifically are online, and requests their specific advertising profile from various data brokers. These data brokers act as a middle man between the website and marketing companies, who bid on the right to serve you their advertisement. This whole process happens in a fraction of a second, and it is just one example of how user data is being sold and traded for profit without their knowledge. </p>
+    <p>That is just one side of the tracking coin. The other being the huge data companies masquerading as technology companies. Google is one example - in 2017, people watched one billion hours of YouTube per day. <sup><a href="bibliography.html#eleven" target="_blank" rel="noopener">[11]</a></sup> One hour of YouTube will load on average ~500 cross site requests and trackers. The sheer volume of data being collected by these companies everyday is astonishing. Importantly, the same approach applies to Facebook’s ecosystem (Instagram and WhatsApp), Twitter, Amazon and every other prominent technology company.</p>
+    <blockquote><strong>Senator Orrin Hatch</strong>: “How do you sustain a business model in which users don’t pay for your service?”<br><strong>Zuckerberg</strong>: “Senator, we run ads.”</blockquote>
+    <cite>- Excerpt from Zuckerberg’s Congress testimony, 2018</cite>
+    <p>Facebook don’t directly sell your data to advertisers. They act as the middle-man, not actually providing advertisers with user data, instead keeping user data anonymous and advertising to people that fit a profile, although this method is not without it’s own controversy. Enter the Facebook Pixel <sup><a href="bibliography.html#twelve" target="_blank" rel="noopener">[12]</a></sup>. The Pixel is a transparent PNG image that is loaded on third party websites - if a website avails of the Pixel, a script is run in the background telling Facebook that that specific user has visited the site, and that they’re interested in the site’s content, allowing Facebook to update that users profile accordingly. It doesn’t matter if the user isn’t logged into their Facebook profile at the time. Browser fingerprints and patterns are cross-referenced with those known to Facebook to ascertain identities. Users don’t even know that this is happening.</p>
+    <p>Advertisers can also upload e-mail address lists that will be cross-referenced against the e-mail address that you use on the site. These e-mail addresses are obtained in a variety of methods - perhaps the users has signed up to a service online and in the small print, it says that their email address can be shared and used to advertise to them. The other method is through those data brokers. Advertisers can purchase your data - including e-mail address straight from them.</p>
+    <p>This led to the birth of a new industry, data tracking. </p>
+    <p>It’s not just Facebook, tracking pixels are in use everywhere - Google also has their analytics tag, which does more or less the same thing. <sup><a href="bibliography.html#thirteen" target="_blank" rel="noopener">[13]</a></sup> These companies make it needlessly obtuse and near impossible to opt out of this tracking. Google provides a browser extension, but there is currently no official solution to opt out of Facebook’s Pixel tracking. Third party solutions exist but they’re not commonplace. Tracking pixels collect various information <sup><a href="bibliography.html#fourteen" target="_blank" rel="noopener">[14]</a></sup>, including but not limited to:</p>
+    <p>
+      <ul class="inline-list">
+        <li>- Operating system used</li>
+        <li>- Type of website or email used, for example on mobile or desktop</li>
+        <li>- Type of client used, for example a browser or mail program.</li>
+        <li>- Client’s screen resolution</li>
+        <li>- Time the email was read or website was visited</li>
+        <li>- Activities on the website during a session</li>
+        <li>- IP address</li>
+      </ul>
+    </p>
+    <p>With the huge volume of data being collected, it would be wise to protect it, but as evidenced by several high profile data leaks in recent years, many companies don’t even take the most basic of steps to protect the valuable user data. It’s difficult to go any substantial period of time without hearing about a data breach or leak, from companies storing unencrypted user data and passwords <sup><a href="bibliography.html#fifteen" target="_blank" rel="noopener">[15]</a></sup>, to actually serving this sensitive data up through developer APIs <sup><a href="bibliography.html#sixteen" target="_blank" rel="noopener">[16]</a></sup>.</p>
+    <p>In 2018, it was discovered that the British data-brokering and analysis firm Cambridge Analytica had been illegally harvesting and mining user Facebook data in order to sway election results. They claimed that they had been sold this information by Facebook themselves, but this is something that Facebook vehemently denies. This story inspired the Netflix documentary “The Great Hack” which demonstrates just the extent that data is mined online. Cambridge Analytica themselves claimed to have “5,000 data points on every American voter” <sup><a href="bibliography.html#seventeen" target="_blank" rel="noopener">[17]</a></sup> - whether this figure is accurate or not, is something that we may never know, as in the wake of the scandal, they were forced to liquidate and close their doors. </p>
+    <p>Hopefully it’s evident by now that online privacy is a thing of the past, and the population at large have just accepted, and in some cases even embraced this state of affairs, but with privacy being a human right and many people now fighting for “data rights” the need for online privacy is a topic that needs thorough discussion.</p>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-item left">
+        <a href="past.html"><i class="fa fa-fw fa-caret-left" aria-hidden="true"></i> Previous</a>
+      </div>
+      <div class="footer-item right">
+        <a href="whatcan.html">Next <i class="fa fa-fw fa-caret-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="small">Words & Code by Garry Irwin - <script>document.write(y);</script>
+    </div>
+  </footer>
+<script src="js/scripts.js" type="text/javascript"></script>
+</body>
+</html>

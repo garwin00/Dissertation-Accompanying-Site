@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>You are The Product - The Erosion of Online Privacy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,800&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    var d = new Date();
+    var y = d.getFullYear();
+  </script>
+</head>
+<body>
+  <nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="index.html"><li>1. Introduction</li></a>
+        <a href="past.html"><li>2. The Past</li></a>
+        <a href="present.html"><li>3. Present Day Privacy</li></a>
+        <a href="whatcan.html" class="current"><li>4. What Can be Done?</li></a>
+        <a href="conclusion.html"><li>5. Conclusion</li></a>
+        <a href="bibliography.html"><li>6. Bibliography</li></a>
+        <p class="bottom-credit">Words & Code by Garry Irwin - <script>document.write(y);</script></p>
+      </ul>
+    </div>
+  </nav>
+  <header class="inner-header" style="background-image: url(img/inner-header-img-3.jpg); background-size: cover;">
+    <h1>You are the product</h1>
+    <h2>The erosion of online privacy</h2>
+  </header>
+  <main>
+    <h3 id="top">4. What can be done?</h3>
+    <blockquote>“You should know your data”</blockquote>
+    <cite>- Michael Sussmann, Former Federal prosecutor, 2014</cite>
+    <p>Privacy requires constant vigilance and unfortunately for most users there’s no such thing as “true” privacy. Even when using a tool such as TOR, which uses privacy centric routing called “onion routing” to shield internet traffic, methods exist to see the unshielded traffic specifically where it’s coming from and who has requested it. </p>
+    <p>The question exists though that if “true” privacy is out of the realm of possibility for the average user what should one do to protect themselves? The answer will differ depending on the goals of the user. Unfortunately, there’s no silver bullet or catch all solution.</p>
+    <p>Angwin says that “<em>[her] first step was to identify the threats to [her] privacy.</em>” In some circles, this step is called building a threat model.</p>
+    <p>Building a threat model involves assessing your current habits and evaluating any threats that may be exploitable, and curtailing them where possible, this allows users to see where they may be exposing data. For the complete novice, this may be difficult as they may not know how and where to begin, They may need to discover just who and what is listening to their traffic. A cursory internet search is all they need to begin down the privacy rabbit hole and searching around on sites such <a href="http://privacytools.io" target="_blank" rel="noopener">privacytools.io</a> is recommended.</p>
+    <p>Next, they should perform a privacy audit - seeking to know what data is already out there, and obfuscate it as much as possible. Obfuscation of this may come in the form of entering false information such as address and phone number or coming up with a false online persona to use from now on, or even using a one time credit card to make online purchases. Removing oneself from social media as much as possible is also recommended in this case. Simply making profiles private is not enough, users need to completely stop feeding these companies their data. Thankfully GDPR (General Data Protection Regulation) legislation introduced by the EU in 2018 allows European users to request a copy of their data, and also to request that those that hold it have it be deleted. Under this legislation, companies that fail to comply with the request are subject to large fines and penalties. There are templates for submitting such a request available online. GDPR has been described as “<em>the most important change in data privacy regulation in 20 years</em>” <sup><a href="bibliography.html#eighteen" target="_blank" rel="noopener">[18]</a></sup>, and rightly so - It’s a huge step in the right direction, but it’s only applicable to Europeans.</p>
+    <p>It’s only once a threat model and privacy audit have been undertaken that users may begin to take steps to protect themselves.</p>
+    <p>The most important step that users should take though, is to select a privacy focused Internet Browser and customise it to fit a purpose. Mozilla’s Firefox is widely used as it allows extensive customisation and is generally performant. Google’s Chrome has telemetry bundled in which cannot be disabled and therefore should be avoided, and the Chromium fork Brave claims to be a privacy centric browser and while, at a surface level at least, this appears to be the case there are also arguments why this is false. It’s important to customise the browser once it has been selected, a general rule of thumb is that no software should ever be used out of the box and there are a multitude of online guides in order to get the most out of it.</p>
+    <p>Now that a browser has been chosen and customised, one should strive to make it as safe as possible. Think back to the threat model, and identify possible vectors where data is exposed. An adblock and tracking extension is absolutely necessary, with uBlock Origin being recommended. Others will accept funding from marketing companies to let their ads display, so it’s important to shop around. Next one should seek to encrypt all online traffic possible. This is achieved with the HTTPS Everywhere extension from the Electronic Frontier Foundation, a trusted privacy advocate, that will upgrade any unencrypted HTTP protocols to the encrypted HTTPS, wherever possible. Finally, It’s possible to completely block JavaScript execution with the Noscript extension, however most websites today rely on JavaScript for critical functionality, so use of this is not recommended in 100% of cases. </p>
+    <p>With a locked down browser, one should look at internet traffic as a whole. A VPN (Virtual Private Network) will help mask user traffic, making it appear as though the user is searching from a different location. Not all VPNs are created equal however, some claim to value privacy but will log traffic and provide it to data brokers and others have questionable ethics. It’s a shame, because a VPN is a fantastic privacy tool when used correctly. It’s impossible to recommend one singular VPN that is above all, each have strengths and weaknesses so it is up to the user to decide, browsing comparisons on <a href="https://thatoneprivacysite.net" target="_blank" rel="noopener">thatoneprivacysite.net</a> is a good way to choose.</p>
+    <p>Those looking for more substantial levels of privacy may need to explore deeper, and fundamentally alter their habits, such as only connecting to the internet through a wired connection and installing some physical hardware in their homes to monitor and control internet traffic, as well as looking into the ethics and practises of certain companies that may align with their own. </p>
+    <p>For the most extreme privacy seekers, methods do exists to almost completely disappear, but those are very difficult to pull off and require constant extreme vigilance. Expensive, privacy centric hardware is almost certainly required in this case, and only rarely is it actually worth it. A single lapse will almost certainly negate all efforts. In 2011, Hector Monsegur, a member of the hacking collective LulzSec was identified and arrested because of an inadvertent disclosure in an online chatroom. From this disclosure FBI agents were able to track down a video of his car and from this, his address <sup><a href="bibliography.html#nineteen" target="_blank" rel="noopener">[19]</a></sup>. Monsegur practised very strong computer security but a momentary lapse in judgement led to his identification.</p>
+    <p>With around 52% of all internet traffic coming from mobile devices <sup><a href="bibliography.html#twenty" target="_blank" rel="noopener">[20]</a></sup> it’s safe to say that mobile devices have changed both our lives, and the internet, in meaningful and powerful ways. Generally speaking though, phone networks know the location of the phone at all times so privacy on a phone does not exist. Telemetry and tracking are inherently present on mobile devices and impossible to disable. VPN services exist on these devices but due to the closed nature of the mobile ecosystem, it’s impossible to know if they’re effective or not. There are phones that one can buy that run on Linux and are for those concerned with privacy but they’re generally hardware that charge a premium for so-called “privacy” features, such as the ability to completely toggle GPS data on or off, something that should be baseline anyway.  The only real advice that one can give is to adopt the practise of having a “burner”, an inexpensive phone that is used only to make calls.</p>
+    <p>In an ideal world, one shouldn’t have to make these steps in order to protect their privacy, but as we have seen this isn’t the case. </p>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-item left">
+        <a href="present.html"><i class="fa fa-fw fa-caret-left" aria-hidden="true"></i> Previous</a>
+      </div>
+      <div class="footer-item right">
+        <a href="conclusion.html">Next <i class="fa fa-fw fa-caret-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="small">Words & Code by Garry Irwin - <script>document.write(y);</script>
+    </div>
+  </footer>
+<script src="js/scripts.js" type="text/javascript"></script>
+</body>
+</html>
