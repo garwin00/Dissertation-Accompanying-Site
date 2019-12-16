@@ -75,6 +75,8 @@ nav {
   transition: .3s all;
   font-weight: 800;
   letter-spacing: 1px;
+  animation: pulse 2s infinite;
+  -webkit-animation: pulse 2s infinite;
 }
 
 #menuToggle input {
@@ -387,6 +389,15 @@ sup {
   margin: 0 auto;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes pulse {
+  50% {
+    transform: translateY(-20px) scale(.9);
+    -webkit-transform: translateY(-20px) scale(.9);
+    -moz-transform: translateY(-20px) scale(.9);
+    -ms-transform: translateY(-20px) scale(.9);
+    -o-transform: translateY(-20px) scale(.9);
 }
 
 @media (max-width: 1024px) {
