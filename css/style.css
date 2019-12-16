@@ -400,7 +400,7 @@ sup {
     -o-transform: translateY(-5px) scale(.95);
   }
 }
-}
+
 @media (max-width: 1200px) {
   body {
     font-size: 1.05em;
