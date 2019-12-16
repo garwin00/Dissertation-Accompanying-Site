@@ -399,7 +399,7 @@ sup {
     -ms-transform: translateY(-5px) scale(.95);
     -o-transform: translateY(-5px) scale(.95);
 }
-
+}
 @media (max-width: 1024px) {
   body {
     font-size: 1.05em;
