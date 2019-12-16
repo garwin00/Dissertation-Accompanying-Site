@@ -415,7 +415,7 @@ sup {
   }
 }
 
-@media (max-width:480px) {
+@media (max-width:600px) {
   body {
     font-size: .875em;
   }
