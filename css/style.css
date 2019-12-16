@@ -398,6 +398,7 @@ sup {
     -moz-transform: translateY(-5px) scale(.95);
     -ms-transform: translateY(-5px) scale(.95);
     -o-transform: translateY(-5px) scale(.95);
+  }
 }
 
 @media (max-width: 1024px) {
