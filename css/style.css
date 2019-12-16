@@ -401,7 +401,7 @@ sup {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   body {
     font-size: 1.05em;
   }
@@ -415,7 +415,7 @@ sup {
   }
 }
 
-@media (max-width:800px) {
+@media (max-width:768px) {
   body {
     font-size: .875em;
   }
